@@ -15,7 +15,9 @@ int main() {
   int j = 0;
   while (!st.empty()) {
     char elem = st.top();
+    
     st.pop();
+    
     str[j] = elem;
     j++;
   }
